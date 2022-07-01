@@ -1,0 +1,22 @@
+body{
+ background-color:#10100E;
+ color:#cccccc;
+ }
+
+h1{font-family:serif;
+    font-weight:bold;
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+    font-size:200%
+
+}
+
+p{
+    font-family:serif;
+    font-weight:bold;
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+    font-size:200%
+}
