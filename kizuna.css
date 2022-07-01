@@ -26,3 +26,10 @@ p1{
     font-family:serif;
     font-size: 250%;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+
+nav{
+    font-family:serif;
+    font-size:x-large
+}
