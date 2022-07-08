@@ -1,0 +1,17 @@
+body{
+    background-color: #a3e4ec;
+}
+h1{
+    font-family:serif;
+    font-weight:bold;
+    text-align: center;
+    margin: 0;
+    color: rgb(1, 0, 0);
+    font-size:200%
+}
+p{
+    font-size:150%
+}
+li{
+    font-size:150%
+}
