@@ -5,3 +5,10 @@ body{
 h1{
     text-align: center;
 }
+.center{
+    text-align: center;
+}
+.brown{
+    color: bisque;
+    font-weight: bold;
+}
