@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-        <meta charset="UTF-8">
-        <title>課題のウェブサイトの表紙です</title>
         <link rel="stylesheet" type="text/css" href="hyoushi.css">
+        <title>ラーメンのウェブサイトの表紙です</title>
+        <meta charset="UTF-8">
     </head>
     <body>
-        <h1>一度は食べてみたい！　変わり種ラーメン特集</h1>
-        <img src="file:\\\C:\Users\iniad\Documents\cs_exercise\CS_ennshuu_kadai\Slide1.jpg">
+        <header><!--header…ヘッダー作成時に使用-->
+            <h2 class="title">Group7</h2>
+            <nav class="nav"><!--nav=   -->
+              <ul class="menu-group">
+                <li class="menu-item">member</li>
+                <li class="menu-item"><a href="kippoushi.html"><font color="#ffffff">吉法師</font></a></li><!--<font color="#"></font>でリンクの文字の色を指定-->
+                <li class="menu-item"><a href="umatsukemen.html"><font color="#ffffff">UMA TSUKEMEN</font></a></li><!--<a href="ページのアドレス" style="color:色の指定">リンクの文字</a>-->
+                <li class="menu-item"><a href="kizuna.html"><font color="#ffffff">ラーメンダイニング絆</font></a></li>
+              </ul>
+            </nav>
+        </header>
+			
+        <div class="picture_text"><!--div=要素をグループ分けする。classによって名前をつける-->
+            <div class="picture"><!--class…複数命名OK 重複命名OK 枠で囲えるもの--><!--id…複数命名NG 重複命名NG 点で表すもの-->
+                <img src="C:\Users\iniad\Documents\GitHub\team-project\images\Slide1.jpg" class="image">
+                <img src="C:\Users\iniad\Documents\GitHub\team-project\images\Slide2.jpg" class="image">
+                <img src="C:\Users\iniad\Documents\GitHub\team-project\images\Slide3.jpg" class="image">
+            </div>
+            <p>
+                一度はチャレンジしてみたい！？<br>変わり種ラーメン特集!! <!--absoluteで画像上に文字を表示-->
+            </p>
+        </div>
         
-        <p class="blue">
-            <a href="http://www.kipposhi.tokyo/"><img src="file:\\\C:\Users\iniad\Documents\cs_exercise\CS_ennshuu_kadai\kippoushi.png"></a>
-        </p>
-        <p class="white">
-            <a href="https://localplace.jp/t200410178/"><img src="file:\\\C:\Users\iniad\Documents\cs_exercise\CS_ennshuu_kadai\umatsukemen.jpg"></a>
-        </p>
-        <p class="brown">
-            <a href="https://tabelog.com/chiba/A1204/A120402/12032848/"><img src="file:\\\C:\Users\iniad\Documents\cs_exercise\CS_ennshuu_kadai\ramendainingu.png"></a>
-        </p>
-        
-
-
-
-
     </body>
 </html>
+

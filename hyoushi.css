@@ -1,11 +1,81 @@
-h1{font-family:serif;
-    font-weight:bold;
-    text-align: center;
-    margin: 0;
-    background-color: #52953e;
-    color: #ffffff;}
+body{background-color: black;
+font-family:serif;
+font-style: oblique;}/*oblique₌斜体*/
+h2{text-align:center;
+margin:0;
+color:white;
+}
 
 
-.hyoushi{width:1200px;
-height:600px;}
+header {
+	display: flex;/*display…HTML要素の表示方法を指定する。非表示(none）にしたり、ブロック要素(block）にしたり、インラインブロック（inline-block）にするなど可能。flex…子要素の並べ方指定*/
+	width: 100%;
+	height: 50px;
+	background-color:black;
+	align-items: center;
+	position:relative;
+	opacity: 1;
+  }
 
+
+  .title {
+	margin-right: auto;
+  }
+
+
+   
+  .menu-item {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+	color: white;
+  }
+
+.picture{
+	position: relative;
+	width: 1300px;
+	max-width: 100%;
+	height: 600px;
+    opacity: 0.5;
+}
+
+.image {
+	position: absolute;
+	opacity: 0;
+	animation: change-img-anim 15s infinite;/*infiniteはcssのアニメーションを無限に繰り返す際に使用*/
+}
+
+.image:nth-of-type(1) {
+	animation-delay: 0s;
+}
+.image:nth-of-type(2) {
+	animation-delay: 5s;
+}
+.image:nth-of-type(3) {
+	animation-delay: 10s;
+}
+
+@keyframes change-img-anim {
+	0%{ opacity: 0;}/*opacityは画像や文字などの透過具合を指定する際に使用する*/
+	10%{ opacity: 1;}
+	90%{ opacity: 1;}
+	100%{ opacity: 0;}
+}
+
+.picture_text {
+    position: relative;
+    }
+  
+  .picture_text p {
+    position: absolute;/*absoluteは画像の上に何かを表示する際に使用*/
+    color: white;
+    top: 0;
+    left: 0;
+    font-family:serif;
+    font-size: 60px;
+    text-shadow: 8px 4px 4px #eeeeee88;
+    }
+
+
+
+  
