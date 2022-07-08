@@ -38,3 +38,13 @@ ul {
     border-color: white;
     font-size:130%
   }
+
+  memo{
+    font-family:serif;
+    font-weight:bold;
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+    font-size:150%;
+  }
+
