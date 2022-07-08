@@ -8,7 +8,7 @@ h1{font-family:serif;
     text-align: center;
     margin: 0;
     color: #ffffff;
-    font-size:200%
+    font-size:200%;
 
 }
 
@@ -18,7 +18,7 @@ p{
     text-align: center;
     margin: 0;
     color: #ffffff;
-    font-size:200%
+    font-size:250%;
 }
 
 p1{
@@ -27,9 +27,14 @@ p1{
     font-size: 250%;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
 
-nav{
+ul {
+    background-color:whitesmoke;
     font-family:serif;
-    font-size:x-large
-}
+    margin-left: 3px;
+    padding: 16px 16px 16px 64px;
+    border-style: serif;
+    border-width: 2px;
+    border-color: white;
+    font-size:130%
+  }
