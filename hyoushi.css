@@ -85,26 +85,26 @@ right: 0;
 font-size:20px;}
 
 
-.member{
+.member {
 	margin: 30px 0px 0px 30px;
 	position   : relative;
   }
+  
   .member:hover .name {
 	display: inline;
   }
   
-  /*色は適当です。*/
   .name {
 	position   : absolute;
+	padding: 0px;
 	display: none;
-	padding: 2px;
-	color: aliceblue;
+	color:white;
 	border-radius: 5px;
-	background-color:purple;
-	width:100px;
+	background-color:black;
+	width:200px;
 	top: 50px;
 	left: 0px;
-	font-size: 12px;
+	font-size: 24px;
 	text-align: center;
   }
   
