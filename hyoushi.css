@@ -24,7 +24,7 @@ header {
 
 
    
-  .menu-item {
+.menu-item {
 	list-style: none;
 	display: inline-block;
 	padding: 10px;
@@ -54,16 +54,13 @@ header {
 	-webkit-animation-delay: 10s;
 	animation-delay: 10s;
 }
+
+/*nth-of-typeは指定した要素のうちx番目の要素を選択し、CSSに適用する際に使用する*/
+
+
 .image:nth-of-type(3) {
 	-webkit-animation-delay: 20s;
 	animation-delay: 20s;
-}
-
-@keyframes change-img-anim {
-	0%{ opacity: 0;}/*opacityは画像や文字などの透過具合を指定する際に使用する*/
-	10%{ opacity: 1;}
-	90%{ opacity: 1;}
-	100%{ opacity: 0;}
 }
 
 
@@ -100,14 +97,11 @@ header {
     font-size: 40px;
     text-shadow: 8px 4px 4px #eeeeee88;
     }
-
-
-
-
+ 
 
 .member {
 	margin: 30px 0px 0px 30px;
-	position   : relative;
+	position:relative;
   }
   
   .member:hover .name {
@@ -115,7 +109,7 @@ header {
   }
   
 .name {
-	position   : absolute;
+	position:absolute;
 	padding: 0px;
 	display: none;
 	color:white;
@@ -127,5 +121,5 @@ header {
 	font-size: 24px;
 	text-align: center;
   }
-  
+
   
